@@ -32,7 +32,7 @@ avg({
 
 
 def maxProduct(nums):
-    m = 0
+    m = -999999999
     for i in range(len(nums)):
         for j in range(i+1, len(nums)):
             k = nums[i]*nums[j]
